@@ -1,9 +1,10 @@
+
 import React from 'react'
 
 export default function Header() {
     return (
         <div>
-            <div className='row m-5'>
+            <div className='row  text-left m-5'>
                 <div className='col-lg-6'>
                     <h4>Hello, I'am</h4>
                     <h3>TANUJA KHATUN</h3>
@@ -15,7 +16,7 @@ export default function Header() {
                         <button type="button" className="btn btn-danger px-4">Contact Me</button>
                 </div>
             <div className='col-lg-6'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVaKyZmu5hlXPFXpkUzR9O9Ojsw8pDDVj1i7x3RWlA0cbcxsQTDiAh15oYx_xf1zfBDOk&usqp=CAU" alt="" srcset=""/>
+            <img src="https://i.ibb.co/9NLD4ys/tanu.jpg" className='w-75 h-75  '  style={{"border-radius":"50%"}}alt=""/>
             </div>
             </div>
         </div>
