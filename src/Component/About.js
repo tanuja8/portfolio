@@ -7,7 +7,7 @@ export default function About() {
       <span className='text-success'>Introduction</span>
       <div className='row m-5 '>
         <div className='col-lg-6 '>
-          <img src={img2} alt="" className='w-100' srcset="" />
+          <img src={img2} alt="" className='w-75 ' srcset="" />
         </div>
         <div className='col-lg-6 text-left '>
           <p >
