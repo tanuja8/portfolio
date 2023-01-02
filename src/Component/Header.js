@@ -6,8 +6,7 @@ export default function Signup() {
     <div>
       <div className=" background_img">
       <div className="container">
-        <h1 className="text-white text-center mb-5">Get the Best Free online Courses <br/>
-        New User Sign Up Now</h1>
+        <h1 className="text-white text-center mb-5">Hello, I am<br/> TANUJA KHATUN </h1>
         
       </div>
     </div>
