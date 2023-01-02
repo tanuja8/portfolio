@@ -3,7 +3,7 @@ import img2 from "../Component/img/imgnew.jpg"
 export default function About() {
   return (
     <div>
-      <h3 className='text-center '>About Me</h3>
+      <h3 className='text-center  mt-5'>About Me</h3>
       <span className='text-success'>Introduction</span>
       <div className='row m-5 '>
         <div className='col-lg-6 '>
