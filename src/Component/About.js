@@ -15,7 +15,13 @@ export default function About() {
             recusandae corporis commodi sit quos reprehenderit debitis! Distinctio blanditiis assumenda
             cumque itaque temporibus sint eveniet ipsam illo soluta ea. Repudiandae dolorum a sint!
             Similique ab quidem odio error minima animi quo sapiente dolor.</p>
-          <button type="button" className="btn btn-danger px-4">Get Resume</button>
+            <div>
+            <span>Tanuja khatun</span><br/>
+            <span>1444444444</span><br/>
+            <span>tanujakhatun2512@gmail.com</span>
+            </div>
+           
+          <button type="button" className="btn btn-danger px-4 mt-3">Get Resume</button>
         </div>
       </div>
     </div>

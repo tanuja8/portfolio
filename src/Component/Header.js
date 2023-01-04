@@ -11,7 +11,8 @@ export default function Signup() {
                     <div className='col-lg-7'>
                     <h1 className="text-white  ">Hello, I'am<br /> TANUJA KHATUN </h1>
                     <h3 className='text-warning'>Frontend Developer</h3>
-                    <p className='text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsa asperiores quas, inventore molestiae at iste, corporis sequi omnis consequuntur vero veritatis laboriosam soluta molestias ipsum delectus rerum tenetur perspiciatis!</p>
+                    <p className='text-white'>Passionate in frontend technologies with other
+                     relevant skills. Always eager to learn and upgrade Myself</p>
                     <button type="button" class="btn btn-danger px-4">Contact Me</button>
                     </div>
                 </div> 
