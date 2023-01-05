@@ -12,3 +12,7 @@
     border: 3px solid white;
     border-radius: 20px;
 }
+.skillimages img{
+    width: 30px;
+    height: 200px;
+}
