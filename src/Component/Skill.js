@@ -3,12 +3,56 @@ import './Style.css'
 export default function Skill() {
   return (
     <div>
-     <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwHQmnvePItAA1-DcKX_S-5qgiXPW2h3Aos351vfu5vI8N6tvv0powsIksM4EeE4p77jc&usqp=CAU" alt="Card image cap"/>
+      <div className='row m-5 text-center'>
+        <div className='col-lg-2 '>
+    <div class="card" style={{width: "15rem"}}>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdOA9a03E7X32tGj674zMXp1cjm0tA6BZsQ&usqp=CAU" class="card-img-top w-50" alt="..."/>
   <div class="card-body">
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <h5 class="card-title">HTML</h5>
+    </div>
   </div>
 </div>
+<div className='col-lg-2'>
+    <div class="card" style={{width: "18rem"}}>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdOA9a03E7X32tGj674zMXp1cjm0tA6BZsQ&usqp=CAU" class="card-img-top w-50" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">HTML</h5>
+    </div>
+  </div>
+</div>
+<div className='col-lg-2'>
+    <div class="card" style={{width: "18rem"}}>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdOA9a03E7X32tGj674zMXp1cjm0tA6BZsQ&usqp=CAU" class="card-img-top w-50" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">HTML</h5>
+    </div>
+  </div>
+</div>
+<div className='col-lg-2'>
+    <div class="card" style={{width: "18rem"}}>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdOA9a03E7X32tGj674zMXp1cjm0tA6BZsQ&usqp=CAU" class="card-img-top w-50" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">HTML</h5>
+    </div>
+  </div>
+</div>
+<div className='col-lg-2'>
+    <div class="card" style={{width: "18rem"}}>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdOA9a03E7X32tGj674zMXp1cjm0tA6BZsQ&usqp=CAU" class="card-img-top w-50" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">HTML</h5>
+    </div>
+  </div>
+</div>
+<div className='col-lg-2'>
+    <div class="card" style={{width: "18rem"}}>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpdOA9a03E7X32tGj674zMXp1cjm0tA6BZsQ&usqp=CAU" class="card-img-top w-50" alt="..."/>
+  <div class="card-body">
+    <h5 class="card-title">HTML</h5>
+    </div>
+  </div>
+</div>
+      </div>
       </div>
     
   )
