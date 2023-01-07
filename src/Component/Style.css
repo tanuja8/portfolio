@@ -12,7 +12,11 @@
     border: 3px solid white;
     border-radius: 20px;
 }
-.skillimages img{
-    width: 30px;
+.card {
+    width: 200px;
     height: 200px;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 3px 3px 3px  #888888;
+
 }
