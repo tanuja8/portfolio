@@ -4,6 +4,7 @@ import Navebar from './Component/Navebar';
 import Header from './Component/Header';
 import About from './Component/About';
 import Skill from './Component/Skill';
+import Project from './Component/Project';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
      <Header/>
      <About/>
      <Skill/>
+     <Project/>
     </div>
   );
 }
