@@ -23,5 +23,8 @@
     width: 400px;
     height: 300px;
 
-    border: 2px solid black
+}
+.footer_img img{
+    width: 50px;
+    height: 30px;
 }
