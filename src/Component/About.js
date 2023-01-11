@@ -10,11 +10,9 @@ export default function About() {
           <img src={img2} alt="" className='w-75 ' srcset="" />
         </div>
         <div className='col-lg-6 text-left '>
-          <p >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam mollitia maxime id nobis
-            recusandae corporis commodi sit quos reprehenderit debitis! Distinctio blanditiis assumenda
-            cumque itaque temporibus sint eveniet ipsam illo soluta ea. Repudiandae dolorum a sint!
-            Similique ab quidem odio error minima animi quo sapiente dolor.</p>
+          <p >Hi There, I'am Tanuja Khatun,I am from a small village call Native.I am currently living in Kolkata.I 
+             have completed Diploma in CST from Nalhati Government Polytechnic.Now I am purshing B.Tech in CSE from 
+             Aliah University. My Skill Set : HTML, CSS, Bootstrap, JavaScript,Reactjs.</p>
           
           <button type="button" className="btn btn-danger px-4 mt-3">Get Resume</button>
         </div>
