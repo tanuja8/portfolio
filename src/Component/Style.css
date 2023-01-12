@@ -19,12 +19,16 @@
    padding: 10px;
    box-shadow: 3px 3px 3px  #888888;
 }
-.projectpicture{
-    width: 400px;
+.projectpicture img {
+    width: 450px;
     height: 300px;
-
+    border: 2px solid gray;
+    border-radius: 5px;
 }
 
+/* .projectpicture{
+    border: 2px solid b;
+} */
 .contactimg{
     background-image: url('https://www.liquiloans.com/images/bg-contactus.jpg');
     background-size: cover;

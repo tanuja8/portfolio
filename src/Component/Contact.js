@@ -1,3 +1,6 @@
+import { IoIosSend } from 'react-icons/io'
+import{MdAddIcCall} from 'react-icons/md'
+import {HiMail} from 'react-icons/hi'
 import React from 'react'
 import './Style.css'
 export default function Contact() {
@@ -11,8 +14,8 @@ export default function Contact() {
             <h3 >Let's chat<br />
               Tell me about your Project
             </h3>
-            <span>8927933406</span><br />
-            <span>tanujakhatun292@gmail.com</span>
+            <span className='text-white'><MdAddIcCall/>   8927933406</span><br />
+            <span className='text-white'> <HiMail/>   tanujakhatun292@gmail.com</span>
 
             <div className='row'>
             </div>
@@ -22,9 +25,9 @@ export default function Contact() {
               <input type="text" placeholder='Enter Your Name' className='w-50 p-2' /> <br></br>
               <input type="email" placeholder='Enter your email' className='my-3 w-50 p-2' /> <br></br>
               <input type="text" placeholder='Enter your Phone Number' className='mb-3 w-50 p-2' /> <br></br>
-              <textarea id="freeform" name="freeform" rows="4" cols="50" placeholder=' Type your Message...'>
+              <textarea id="freeform" name="freeform" rows="4" className='w-50' placeholder=' Type your Message...'>
               </textarea><br />
-              <button type="button" className="btn btn-danger  mt-3 ">Send Message</button>
+              <button type="button" className="btn btn-danger  mt-3 ">Send Message <IoIosSend/></button>
             </form>
           </div>
         </div>
