@@ -24,3 +24,11 @@
     height: 300px;
 
 }
+
+.contactimg{
+    background-image: url('https://www.liquiloans.com/images/bg-contactus.jpg');
+    background-size: cover;
+    height:500px;
+    border-radius: 0 ;
+}
+
