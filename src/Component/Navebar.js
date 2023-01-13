@@ -1,4 +1,5 @@
 import React from 'react'
+import './Style.css'
 import { Link } from 'react-router-dom'
 
 export default function Navebar() {
@@ -9,31 +10,21 @@ export default function Navebar() {
         <h3>Port<span class="text-danger">folio</span></h3>
       </a>
       <div className="collapse navbar-collapse  " id="navbarSupportedContent">
-        <ul className="navbar-nav m-auto">
+        <ul className="navbar-nav m-auto  ">
           <li className="nav-item active">
-          <Link to='/'>
-            Home
-            </Link> 
-                      </li>
+        <Link to='/'> <h4 className='text-white'>Home</h4></Link>
+            </li>
           <li className="nav-item">
-            <Link to='/about'>
-            About
-            </Link>
+            <Link to='/about'> <h4 className='text-white px-3'>About</h4></Link>
           </li>
           <li className="nav-item">
-          <Link to='/skills'>
-            Skill
-            </Link>
+          <Link to='/skills'> <h4 className='text-white'>Skill</h4></Link>
           </li>
           <li className="nav-item">
-          <Link to='/project'>
-            Project
-            </Link>
+          <Link to='/project'> <h4 className='text-white px-3'>Project</h4></Link>
           </li>
           <li className="nav-item">
-          <Link to='/contact'>
-            Contact
-            </Link>
+         <Link to='/contact'><h4 className='text-white'>Contact</h4></Link>
           </li>
         </ul>
       </div>
