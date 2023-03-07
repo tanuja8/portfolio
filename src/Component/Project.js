@@ -36,6 +36,18 @@ export default function Project() {
         <button type="button" className="btn btn-danger px-3 my-3">See Real Project</button>
          </div>
       </div>
+      <div className='row m-5'>
+      <div className='col-lg-4 projectpicture'>
+        <img src="https://i.ibb.co/Kw2mGq5/Screenshot-47.png" class="card-img-top 
+        " alt="..."/>
+        <button type="button" className="btn btn-danger px-3 my-3">See Real Project</button>
+         </div>
+         <div className='col-lg-4 projectpicture'>
+        <img src="https://i.ibb.co/FgRhj78/Screenshot-49.png" class="card-img-top 
+        " alt="..."/>
+        <a href='https://weatherapp1411.netlify.app/'><button type="button" className="btn btn-danger px-3 my-3" >See Real Project</button></a>
+         </div>
+      </div>
     </div>
   )
 }
