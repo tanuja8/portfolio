@@ -13,8 +13,9 @@ export default function About() {
           <p >Hi There, I'am Tanuja Khatun,I am from a small village call Native.I am currently living in Kolkata.I
             have completed Diploma in CST from Nalhati Government Polytechnic.Now I am purshing B.Tech in CSE from
             Aliah University. My Skill Set : HTML, CSS, Bootstrap, JavaScript,Reactjs. I am currently focusing on frontend development.</p>
-
+            <a  href="https://drive.google.com/file/d/1EgCorx0Gh3ecFVVGr0_KGuErDOBzPvoy/view?usp=share_link">
           <button type="button" className="btn btn-danger px-4 mt-3">Get Resume</button>
+          </a>
         </div>
       </div>
     </div>
