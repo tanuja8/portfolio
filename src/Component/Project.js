@@ -48,7 +48,12 @@ export default function Project() {
           <img src="https://i.ibb.co/FgRhj78/Screenshot-49.png" class="card-img-top 
         " alt="..." />
           <a href='https://todoapp8112000.netlify.app/'><button type="button" className="btn btn-danger px-3 my-3" >See Real Project</button></a>
+        </div><div className='col-lg-4 projectpicture'>
+          <img src="https://i.ibb.co/pPMVFYr/shoppping.png" class="card-img-top 
+        " alt="..." />
+          <a href='https://product-shopping-page.netlify.app/'><button type="button" className="btn btn-danger px-3 my-3" >See Real Project</button></a>
         </div>
+
       </div>
     </div>
   )
